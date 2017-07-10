@@ -2,5 +2,8 @@ flags: {}
 extra-package-dbs: []
 packages:
 - '.'
-extra-deps: []
+- location: /home/j/dev/apps/haskell/libraries/20-thread-delay-in-seconds
+  extra-dep: true
+extra-deps:
+- time-units-1.0.0
 resolver: lts-8.22
