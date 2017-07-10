@@ -1,0 +1,14 @@
+Name:          async-timeouts
+Version:       1.0.0
+Author:        Joe9
+Homepage:      http://none.sourceforge.net/
+Category:      Data
+Synopsis:      Timeouts using async
+               data
+Tested-With:   GHC==7.0.1
+Build-Type:    Simple
+Cabal-Version: >= 1.6
+
+Library
+   Build-Depends: base, async
+   Exposed-modules: AsyncTimeouts
