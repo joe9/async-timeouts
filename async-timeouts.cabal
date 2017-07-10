@@ -10,5 +10,5 @@ Build-Type:    Simple
 Cabal-Version: >= 1.6
 
 Library
-   Build-Depends: base, async
+   Build-Depends: base, async, thread-delay-in-seconds
    Exposed-modules: AsyncTimeouts
